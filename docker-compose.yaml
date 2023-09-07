@@ -1,0 +1,22 @@
+services:
+  demo-solution-database:
+    container_name: demo-solution-database
+    image: postgres
+    environment:
+      POSTGRES_USER: demosolution
+      POSTGRES_PASSWORD: p@ssw0rd
+      PGDATA: /data/postgres
+    volumes:
+      - postgres:/data/postgres
+    ports:
+      - "5432:5432"
+    networks:
+      - postgres
+    restart: unless-stopped
+
+networks:
+  postgres:
+    driver: bridge
+
+volumes:
+  postgres:

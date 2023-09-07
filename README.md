@@ -1,7 +1,7 @@
 # Template of a Demo Solution
 
-This project is a sample web application to serve as a template for a Java Application that uses Maven as a project management
-tool. The intent is to have a sample application with the following characteristics: 
+This project is a Sample Solution that serves as a template for a Java Application that uses Maven as a project management
+tool. The intent is to have a Sample Application with the following characteristics: 
 
 - Clean Architecture (Decoupled Modules)
 - Spring Boot in the web layer

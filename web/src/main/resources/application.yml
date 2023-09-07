@@ -1,0 +1,8 @@
+app:
+  datasource:
+    main:
+      driver-class-name: org.postgresql.Driver
+      jdbc-url: jdbc:postgresql://localhost:5432/demo-solution
+      username: demosolution
+      password: 'p@ssw0rd'
+      pool-size: 30ó
